@@ -8,8 +8,8 @@ En la instalación, algo hice mal y tuve que re-armar mi archivo `/etc/network/i
 
 Bien, al darle al botón **Create**, procedemos a:
 - Darle un nombre (que comience con *vmbr*, seguido de un número del 0 al 9999)
-- Brindarle una IP IPv4, ejemplo 192.168.21.210/24
+- Brindarle una IP IPv4 (opcionalmente), ejemplo 192.168.21.210/24
 
 ~~¡Listo!~~
 
-**Recordá** que deberás reiniciar el servicio de *Networking* para aplicar cambios, con el comando `systemd restart networking`, o reiniciar el host. Caso contrario, la interfaz va a aparecer en la creación del contenedor y todo parecerá que está bien, pero el contenedor no podrá iniciar y nos costará unos minutos de Google, o un par de horas de ChatGPT 😣
+**Recordá** que debés hacer clic en el botón **Apply Configuration**, que está a la derecha del botón "Remove". Esto aplicará los cambios a las nuevas interfaces de red, sin requerir reinicio del servidor.
