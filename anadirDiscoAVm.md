@@ -16,3 +16,11 @@ Allí se abrirá una ventana, para poder indicar el volúmen ZFS dónde se guard
 - SATA: muy compatible, a partir de Windows XP en adelante. Más rápido que IDE.
 - VirtIO Block: precisa drivers en sistemas guest Windows, pero no en Linux/FreeBSD. Ideal para aplicaciones dónde se precisa un rendimiento excelente, con grandes cargas en el IO.
 - SCSI: precisa drivers y no tiene tantas optimizaciones como VirtIO Block. Si no se puede instalar el driver de VirtIO por algún motivo, la segunda mejor opción es SCSI.
+
+# Cache
+
+Continuará
+
+# Async IO
+
+Continuará
