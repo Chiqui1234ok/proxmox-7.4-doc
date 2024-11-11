@@ -48,10 +48,10 @@ force user = nobody
 - **directory mask**: Define los permisos de los directorios creados (0777 significa que todos pueden leer, escribir y acceder).
 - **force user**: Establece el usuario que poseerá los archivos creados en el recurso compartido.
 
-Sólo resta darle permisos a la carpeta, evitando la ejecución:
+Sólo resta darle permisos a la carpeta:
 
 ```bash
-chmod 766 /wd-1tb-3/public
+chmod 777 /wd-1tb-3/public
 ```
 
 # Reiniciar Samba y aplicar cambios
@@ -62,4 +62,4 @@ Reiniciamos con:
 systemctl restart samba
 ```
 
-Samba leerá el `/etc/samba/smb.conf` al (re)iniciarse y deberíamos poder acceder a la carpeta compartida desde Windows, yendo a `\\ip.del.servidor.proxmox\Public`.
+Samba leerá el `/etc/samba/smb.conf` al (re)iniciarse y deberíamos poder acceder a la carpeta compartida desde Windows, yendo a `\\ip.del.servidor\Public`.
