@@ -10,7 +10,7 @@ Allí se abrirá una ventana, para poder indicar el volúmen ZFS dónde se guard
 
 # Tipos de Buses
 
-![tipos-de-buses](../README.src/Disk-window.png)
+![tipos-de-buses](./README.src/Disk-window.png)
 
 - IDE: ampliamente compatible con cualquier sistema operativo, no precisa drivers extra
 - SATA: muy compatible, a partir de Windows XP en adelante. Más rápido que IDE.
